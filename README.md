@@ -56,5 +56,8 @@ We will also create a location search input.
 * Connect the facebook api to your app so that it can use anyone's friends
 
 ##Resources
+* Controller scopes http://jsfiddle.net/8pX7p/
+* ng-repeat http://jsfiddle.net/PhCUk/1/
+* Filter http://jsfiddle.net/WS8gS/1/
 * http://docs.angularjs.org/guide/concepts
 * Goodluck...Hahahaha!
