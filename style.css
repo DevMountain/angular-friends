@@ -1,0 +1,35 @@
+body, html, h1, h2, h3, h4, h5, h6, ul{
+	padding: 0px;
+	margin: 0px;
+}
+
+h1{
+	text-align: center;
+	margin: 20px 0px;
+}
+
+.searchForm{
+	width: 500px;
+	margin:auto;
+	text-align: center;
+}
+
+.friends{
+
+}
+
+.friends ul{
+	width: 500px;
+	margin: auto;
+}
+
+.friend{
+	text-align: left;
+	border: 1px solid #ccc;
+	padding: 15px;
+	margin: 2px 0px;
+}
+
+ul{
+	list-style-type: none;
+}
