@@ -18,7 +18,7 @@
 
 <body ng-app='AngularApp'>
 
-<h1>Welcome My Friends</h1>
+<h1>The <strong>facebook</strong> Friend Machine</h1>
 
 <div class="friends" ng-controller='FriendController'>
 
@@ -43,17 +43,18 @@
 
   <ul>
     <li class='friend' ng-repeat='friend in friends | orderBy:orderAttribute:orderReverse | filter:{name:nameFilter, current_location: locationFilter}'>
+      <img ng-src="{{friend.pic_square}}">
+
       <h3>{{friend.name}}</h3>
-      <div ng-show='friend.current_location'>
+      <div class='location 'ng-show='friend.current_location'>
         Location: {{friend.current_location.city}}, {{friend.current_location.state}}, {{friend.current_location.country}}
       </div>      
-      <div ng-show='friend.status'>
+      <div class='status' ng-show='friend.status'>
         Status: {{friend.status.message}}
       </div>      
-      <div ng-show='friend.friend_count'>
+      <div class='num-friends' ng-show='friend.friend_count'>
         Friends: {{friend.friend_count}}
       </div>
-       <img ng-src="{{friend.pic_square}}">
     </li>
   </ul>
 </div>

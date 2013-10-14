@@ -20,9 +20,10 @@ app.controller('FriendController', function($scope){
             console.log(friends);
             $scope.totalFriends = friends.length;
             $scope.friends = friends;
+            $scope.$apply();
     };
     var url = 'https://s3.amazonaws.com/intuiplan_company_files/production/files/public/FriendData.json';
 
-    $.get(url, handleApiResponse);
+    $.getJSON(url, handleApiResponse);
 
 });
