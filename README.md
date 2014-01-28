@@ -41,7 +41,7 @@ Note that the filter searches all attributes of the model recursively.
 * Bind the searchTerm variable to the search input using ng-model
 * Add a filter to your ng-repeat attribute to filter on the search term
 
-###Step 5: Split the filters into 2: name and location
+###Step 6: Split the filters into 2: name and location
 Let's make our search more specific. Our input from Step 4 will now search only the name.
 We will also create a location search input.
 * Refactor the search you implemented in Step 4 to only search on a friend's name 
@@ -49,12 +49,12 @@ We will also create a location search input.
 * Add the location specific filter 
 
 
-###Step 6: Make the list sortable
+###Step 7: Make the list sortable
 * Create two variables in your friend controller, one for the attribute to sort on and another boolean for an ascending vs descending sort
 * Bind the variables to their respective select elements using ng-model
 * Add the ordering logic to your filter
 
-###Step 7 Black Diamond
+###Step 8: Black Diamond
 * Use ng-options and an array to create the filter options
 * Connect the facebook api to your app so that it can use anyone's friends
 
