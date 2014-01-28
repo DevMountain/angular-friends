@@ -45,6 +45,7 @@ input, select, form, ul {
 .profile-pic {
 	float: left;
 	padding-right: 13px;
+	max-height: 50px;
 }
 
 .friend{
