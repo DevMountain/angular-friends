@@ -17,7 +17,7 @@ In step one you will create an app variable and your FriendController. We have a
 
 ###Step 2: Load the friend Information
 In step two we will use ajax to load the friend json from a remote server practice debugging angular
-* In the FriendController use jquery to load Tyler's friends' data from this url:
+* In the FriendController use [jQuery](http://api.jquery.com/jquery.get/) to load Tyler's friends' data from this url:
 https://s3.amazonaws.com/intuiplan_company_files/production/files/public/FriendData.json
 * Create a new attribute to your FriendController scope variable called friends and assign it to the value of your the array you 
 received from the ajax call
@@ -31,15 +31,18 @@ received from the ajax call
 
 ##DAY 2
 
-###Step 4: Add a search filter on the friends
-In Step 4 we are adding a filter that will take a user inputted string and only display models that contain that string. 
+###Step 4: Convert the jQuery get call to an Angular call
+* Using jQuery to load the data is bad practice, let's use Angular's http service to accomplish that
+
+###Step 5: Add a search filter on the friends
+Let's add a filter that will take a user inputted string and only display models that contain that string. 
 Note that the filter searches all attributes of the model recursively.
 * Add an attribute called searchTerm to your FriendController scope variable to store the value of a search term inputted by the user
 * Bind the searchTerm variable to the search input using ng-model
 * Add a filter to your ng-repeat attribute to filter on the search term
 
 ###Step 5: Split the filters into 2: name and location
-In Step 5 we are making our search more specific. Our input from Step 4 will now search only the name.
+Let's make our search more specific. Our input from Step 4 will now search only the name.
 We will also create a location search input.
 * Refactor the search you implemented in Step 4 to only search on a friend's name 
 * Create a second input and searchTerm variable for a friend's location
@@ -51,7 +54,7 @@ We will also create a location search input.
 * Bind the variables to their respective select elements using ng-model
 * Add the ordering logic to your filter
 
-###Step 7 EXTRA CREDIT
+###Step 7 Black Diamond
 * Use ng-options and an array to create the filter options
 * Connect the facebook api to your app so that it can use anyone's friends
 
