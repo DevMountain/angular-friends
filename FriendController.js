@@ -2,14 +2,11 @@
 
 
 
-
-
-app.controller('FriendController', function($scope){
+app.controller('FriendController', function($scope, $http){
     
     $scope.friends = [];
     $scope.totalFriends = 0;
-    $scope.nameFilter = "";
-    $scope.locationFilter = "";
+    $scope.friendFilter = {};
     $scope.orderReverse = "false";
     $scope.orderAttribute = 'name';
     var handleApiResponse = function(response){
@@ -20,10 +17,8 @@ app.controller('FriendController', function($scope){
             console.log(friends);
             $scope.totalFriends = friends.length;
             $scope.friends = friends;
-            $scope.$apply();
     };
     var url = 'https://s3.amazonaws.com/intuiplan_company_files/production/files/public/FriendData.json';
-
-    $.getJSON(url, handleApiResponse);
+	$http.get(url).success(handleApiResponse);
 
 });
