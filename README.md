@@ -13,7 +13,7 @@ In step one you will create an app variable and your FriendController. We have a
 * Create an app variable for your angular app in app.js (this should be one line). You can name your app whatever your want
 * Create a FriendController in the FriendController.js file
 * Add the ng-app and ng-controller attributes to index.html in order to attach your controller to your html 
-* Test your controller by adding an attribute its scope variable called 'test' with the value 'Hello World' and then bind the variable in index.html {{test}} to see if your controller is working
+* Test your controller by adding a scope variable called 'test' with the value 'Hello World' and then bind the variable in index.html {{test}} to see if your controller is working
 
 ###Step 2: Load the friend Information
 In step two we will paste the fake data into our application
