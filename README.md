@@ -28,17 +28,14 @@ In step two we will paste the fake data into our application
 
 ##DAY 2
 
-###Step 4: Convert the jQuery get call to an Angular call
-* Using jQuery to load the data is bad practice, let's use Angular's http service to accomplish that
-
-###Step 5: Add a search filter on the friends
+###Step 4: Add a search filter on the friends
 Let's add a filter that will take a user inputted string and only display models that contain that string. 
 Note that the filter searches all attributes of the model recursively.
 * Add an attribute called searchTerm to your FriendController scope variable to store the value of a search term inputted by the user
 * Bind the searchTerm variable to the search input using ng-model
 * Add a filter to your ng-repeat attribute to filter on the search term
 
-###Step 6: Split the filters into 2: name and location
+###Step 5: Split the filters into 2: name and location
 Let's make our search more specific. Our input from Step 4 will now search only the name.
 We will also create a location search input.
 * Refactor the search you implemented in Step 4 to only search on a friend's name 
@@ -46,12 +43,12 @@ We will also create a location search input.
 * Add the location specific filter 
 
 
-###Step 7: Make the list sortable
+###Step 6: Make the list sortable
 * Create two variables in your friend controller, one for the attribute to sort on and another boolean for an ascending vs descending sort
 * Bind the variables to their respective select elements using ng-model
 * Add the ordering logic to your filter
 
-###Step 8: Black Diamond
+###Step 7: Black Diamond
 * Use ng-options and an array to create the filter options
 * Connect the facebook api to your app so that it can use anyone's friends
 
