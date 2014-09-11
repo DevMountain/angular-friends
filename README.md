@@ -26,7 +26,7 @@ In step two we will paste the fake data into our application
 * use {{variable.property}}  bindings to fill the user's picture and data into the li content
 
 
-##DAY 2
+##Full Time: Continue. ---- Part Time: Day Two
 
 ###Step 4: Add a search filter on the friends
 Let's add a filter that will take a user inputted string and only display models that contain that string. 
