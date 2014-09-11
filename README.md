@@ -26,7 +26,7 @@ In step two we will paste the fake data into our application
 * use {{variable.property}}  bindings to fill the user's picture and data into the li content
 
 
-##Full Time: Continue. ---- Part Time: Day Two
+## Day Two(Part Time) or Continue(Full Time)
 
 ###Step 4: Add a search filter on the friends
 Let's add a filter that will take a user inputted string and only display models that contain that string. 
@@ -50,7 +50,6 @@ We will also create a location search input.
 
 ###Step 7: Black Diamond
 * Use ng-options and an array to create the filter options
-* Connect the facebook api to your app so that it can use anyone's friends
 
 ##Resources
 * Controller scopes http://jsfiddle.net/8pX7p/
