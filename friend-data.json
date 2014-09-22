@@ -1,22 +1,5 @@
 [
     {
-        "name": "Naishi Zhang",
-        "pic_square": "https://fbcdn-profile-a.akamaihd.net/hprofile-ak-ash3/174266_842841_1023237973_q.jpg",
-        "current_location": {
-            "city": "New York",
-            "state": "New York",
-            "country": "United States",
-            "zip": "",
-            "latitude": "40.7167",
-            "longitude": "-74",
-            "id": "108424279189115",
-            "name": "New York, New York"
-        },
-        "status": null,
-        "friend_count": null,
-        "$$hashKey": "004"
-    },
-    {
         "name": "Preston McNeil",
         "pic_square": "https://fbcdn-profile-a.akamaihd.net/hprofile-ak-ash2/1117694_1614542_108355616_q.jpg",
         "current_location": {
@@ -73,64 +56,6 @@
         "$$hashKey": "009"
     },
     {
-        "name": "Lindsey Mayer",
-        "pic_square": "https://fbcdn-profile-a.akamaihd.net/hprofile-ak-ash3/173210_10024969_2137324550_q.jpg",
-        "current_location": null,
-        "status": null,
-        "friend_count": "870",
-        "$$hashKey": "00A"
-    },
-    {
-        "name": "Melynda Stock",
-        "pic_square": "https://fbcdn-profile-a.akamaihd.net/hprofile-ak-ash3/370169_10036042_497757649_q.jpg",
-        "current_location": null,
-        "status": null,
-        "friend_count": "1109",
-        "$$hashKey": "00E"
-    },
-    {
-        "name": "Ridhi Patel",
-        "pic_square": "https://fbcdn-profile-a.akamaihd.net/hprofile-ak-prn2/1116511_10037131_1542100919_q.jpg",
-        "current_location": {
-            "city": "Gilbert",
-            "state": "Arizona",
-            "country": "United States",
-            "zip": "",
-            "latitude": "33.35",
-            "longitude": "-111.789",
-            "id": "109449362414385",
-            "name": "Gilbert, Arizona"
-        },
-        "status": null,
-        "friend_count": "809",
-        "$$hashKey": "00F"
-    },
-    {
-        "name": "Shauna Searle Crittenden",
-        "pic_square": "https://fbcdn-profile-a.akamaihd.net/hprofile-ak-ash1/274178_10042711_1761026673_q.jpg",
-        "current_location": null,
-        "status": null,
-        "friend_count": "669",
-        "$$hashKey": "00G"
-    },
-    {
-        "name": "Scott Owen",
-        "pic_square": "https://fbcdn-profile-a.akamaihd.net/hprofile-ak-prn2/1119172_10043120_1424174264_q.jpg",
-        "current_location": {
-            "city": "Gilbert",
-            "state": "Arizona",
-            "country": "United States",
-            "zip": "",
-            "latitude": "33.35",
-            "longitude": "-111.789",
-            "id": "109449362414385",
-            "name": "Gilbert, Arizona"
-        },
-        "status": null,
-        "friend_count": "803",
-        "$$hashKey": "00H"
-    },
-    {
         "name": "Peter John Renslow",
         "pic_square": "https://fbcdn-profile-a.akamaihd.net/hprofile-ak-ash2/1085700_10051596_890338133_q.jpg",
         "current_location": {
@@ -170,23 +95,6 @@
         "$$hashKey": "00K"
     },
     {
-        "name": "Luke McInnis",
-        "pic_square": "https://fbcdn-profile-a.akamaihd.net/hprofile-ak-ash3/624089_10052705_525706184_q.jpg",
-        "current_location": {
-            "city": "New York",
-            "state": "New York",
-            "country": "United States",
-            "zip": "",
-            "latitude": "40.7167",
-            "longitude": "-74",
-            "id": "108424279189115",
-            "name": "New York, New York"
-        },
-        "status": null,
-        "friend_count": "305",
-        "$$hashKey": "00L"
-    },
-    {
         "name": "Jesse Morrison",
         "pic_square": "https://fbcdn-profile-a.akamaihd.net/hprofile-ak-ash3/623709_10053698_1875866361_q.jpg",
         "current_location": null,
@@ -206,82 +114,6 @@
         "status": null,
         "friend_count": "928",
         "$$hashKey": "00O"
-    },
-    {
-        "name": "Thien Quoc Pham-Tran",
-        "pic_square": "https://fbcdn-profile-a.akamaihd.net/hprofile-ak-prn2/1117188_10054849_557573757_q.jpg",
-        "current_location": null,
-        "status": null,
-        "friend_count": "2631",
-        "$$hashKey": "00R"
-    },
-    {
-        "name": "Shane Murphy",
-        "pic_square": "https://fbcdn-profile-a.akamaihd.net/hprofile-ak-ash4/203317_10054966_409869579_q.jpg",
-        "current_location": {
-            "city": "Phoenix",
-            "state": "Arizona",
-            "country": "United States",
-            "zip": "",
-            "latitude": "33.4483",
-            "longitude": "-112.074",
-            "id": "105540216147364",
-            "name": "Phoenix, Arizona"
-        },
-        "status": null,
-        "friend_count": "377",
-        "$$hashKey": "00T"
-    },
-    {
-        "name": "Rob Jensen",
-        "pic_square": "https://fbcdn-profile-a.akamaihd.net/hprofile-ak-ash4/368962_10055717_1412703029_q.jpg",
-        "current_location": {
-            "city": "Clarksville",
-            "state": "Tennessee",
-            "country": "United States",
-            "zip": "",
-            "latitude": "36.5297",
-            "longitude": "-87.3592",
-            "id": "108534305837795",
-            "name": "Clarksville, Tennessee"
-        },
-        "status": null,
-        "friend_count": "184",
-        "$$hashKey": "00V"
-    },
-    {
-        "name": "Diana McNeely",
-        "pic_square": "https://fbcdn-profile-a.akamaihd.net/hprofile-ak-prn1/368626_10057866_1247354717_q.jpg",
-        "current_location": {
-            "city": "Tempe",
-            "state": "Arizona",
-            "country": "United States",
-            "zip": "",
-            "latitude": "33.4294",
-            "longitude": "-111.943",
-            "id": "112887355389124",
-            "name": "Tempe, Arizona"
-        },
-        "status": null,
-        "friend_count": "261",
-        "$$hashKey": "00Y"
-    },
-    {
-        "name": "Steven Needham",
-        "pic_square": "https://fbcdn-profile-a.akamaihd.net/hprofile-ak-ash3/174156_10119787_1826399146_q.jpg",
-        "current_location": {
-            "city": "Gilbert",
-            "state": "Arizona",
-            "country": "United States",
-            "zip": "",
-            "latitude": "33.35",
-            "longitude": "-111.789",
-            "id": "109449362414385",
-            "name": "Gilbert, Arizona"
-        },
-        "status": null,
-        "friend_count": "387",
-        "$$hashKey": "00Z"
     },
     {
         "name": "Lindsey Ishikiwi",
@@ -331,62 +163,12 @@
         "$$hashKey": "013"
     },
     {
-        "name": "Tamra Kasprzyk",
-        "pic_square": "https://fbcdn-profile-a.akamaihd.net/hprofile-ak-ash3/623547_10137534_1270054831_q.jpg",
-        "current_location": {
-            "city": "Tucson",
-            "state": "Arizona",
-            "country": "United States",
-            "zip": "",
-            "latitude": "32.2217",
-            "longitude": "-110.926",
-            "id": "109570449061083",
-            "name": "Tucson, Arizona"
-        },
-        "status": null,
-        "friend_count": "932",
-        "$$hashKey": "01C"
-    },
-    {
         "name": "John Dohyung Kwon",
         "pic_square": "https://fbcdn-profile-a.akamaihd.net/static-ak/rsrc.php/v2/yo/r/UlIqmHJn-SK.gif",
         "current_location": null,
         "status": null,
         "friend_count": "79",
         "$$hashKey": "01D"
-    },
-    {
-        "name": "Liesl Burger",
-        "pic_square": "https://fbcdn-profile-a.akamaihd.net/hprofile-ak-ash3/157211_10139116_1243165938_q.jpg",
-        "current_location": {
-            "city": "Gilbert",
-            "state": "Arizona",
-            "country": "United States",
-            "zip": "",
-            "latitude": "33.35",
-            "longitude": "-111.789",
-            "id": "109449362414385",
-            "name": "Gilbert, Arizona"
-        },
-        "status": null,
-        "friend_count": "412",
-        "$$hashKey": "01E"
-    },
-    {
-        "name": "Stephanie Balliet",
-        "pic_square": "https://fbcdn-profile-a.akamaihd.net/hprofile-ak-ash2/1076696_10140157_1355928606_q.jpg",
-        "current_location": null,
-        "status": null,
-        "friend_count": "160",
-        "$$hashKey": "01H"
-    },
-    {
-        "name": "Lauren Skidmore",
-        "pic_square": "https://fbcdn-profile-a.akamaihd.net/hprofile-ak-prn2/211527_17800019_875679369_q.jpg",
-        "current_location": null,
-        "status": null,
-        "friend_count": "536",
-        "$$hashKey": "01L"
     },
     {
         "name": "Dan Sullivan",
@@ -448,23 +230,6 @@
         "$$hashKey": "01R"
     },
     {
-        "name": "Rachel Smith",
-        "pic_square": "https://fbcdn-profile-a.akamaihd.net/hprofile-ak-ash4/368962_17805150_1247633617_q.jpg",
-        "current_location": {
-            "city": "Provo",
-            "state": "Utah",
-            "country": "United States",
-            "zip": "",
-            "latitude": "40.2444",
-            "longitude": "-111.661",
-            "id": "106066949424984",
-            "name": "Provo, Utah"
-        },
-        "status": null,
-        "friend_count": "322",
-        "$$hashKey": "01T"
-    },
-    {
         "name": "Jeremy James",
         "pic_square": "https://fbcdn-profile-a.akamaihd.net/hprofile-ak-ash4/261035_17806007_1068091327_q.jpg",
         "current_location": {
@@ -480,23 +245,6 @@
         "status": null,
         "friend_count": "555",
         "$$hashKey": "01U"
-    },
-    {
-        "name": "Melanie Hogg Barber",
-        "pic_square": "https://fbcdn-profile-a.akamaihd.net/hprofile-ak-prn1/161600_17806124_1521574_q.jpg",
-        "current_location": {
-            "city": "Snoqualmie",
-            "state": "Washington",
-            "country": "United States",
-            "zip": "",
-            "latitude": "47.5329",
-            "longitude": "-121.844",
-            "id": "112518328764079",
-            "name": "Snoqualmie, Washington"
-        },
-        "status": null,
-        "friend_count": "1020",
-        "$$hashKey": "01V"
     },
     {
         "name": "Heather Clouse",
@@ -519,56 +267,6 @@
         },
         "friend_count": "366",
         "$$hashKey": "01W"
-    },
-    {
-        "name": "Matt Olson",
-        "pic_square": "https://fbcdn-profile-a.akamaihd.net/hprofile-ak-ash1/187330_17808503_965029476_q.jpg",
-        "current_location": null,
-        "status": null,
-        "friend_count": "984",
-        "$$hashKey": "01X"
-    },
-    {
-        "name": "Jeff Schwarting",
-        "pic_square": "https://fbcdn-profile-a.akamaihd.net/hprofile-ak-frc3/369193_17808584_1554107726_q.jpg",
-        "current_location": {
-            "city": "Provo",
-            "state": "Utah",
-            "country": "United States",
-            "zip": "",
-            "latitude": "40.2444",
-            "longitude": "-111.661",
-            "id": "106066949424984",
-            "name": "Provo, Utah"
-        },
-        "status": null,
-        "friend_count": "1318",
-        "$$hashKey": "01Y"
-    },
-    {
-        "name": "Scott Woodland",
-        "pic_square": "https://fbcdn-profile-a.akamaihd.net/hprofile-ak-ash2/1086424_17809662_272706518_q.jpg",
-        "current_location": {
-            "city": "Provo",
-            "state": "Utah",
-            "country": "United States",
-            "zip": "",
-            "latitude": "40.2444",
-            "longitude": "-111.661",
-            "id": "106066949424984",
-            "name": "Provo, Utah"
-        },
-        "status": null,
-        "friend_count": "1590",
-        "$$hashKey": "023"
-    },
-    {
-        "name": "Sarah McCormick",
-        "pic_square": "https://fbcdn-profile-a.akamaihd.net/hprofile-ak-ash2/1083106_17809770_2137663451_q.jpg",
-        "current_location": null,
-        "status": null,
-        "friend_count": "825",
-        "$$hashKey": "024"
     },
     {
         "name": "Joel Gardner",
@@ -603,23 +301,6 @@
         "status": null,
         "friend_count": "482",
         "$$hashKey": "029"
-    },
-    {
-        "name": "Tierra Jones",
-        "pic_square": "https://fbcdn-profile-a.akamaihd.net/hprofile-ak-prn1/173975_17813822_675974818_q.jpg",
-        "current_location": {
-            "city": "Mesa",
-            "state": "Arizona",
-            "country": "United States",
-            "zip": "",
-            "latitude": "33.415",
-            "longitude": "-111.831",
-            "id": "104069826296214",
-            "name": "Mesa, Arizona"
-        },
-        "status": null,
-        "friend_count": "990",
-        "$$hashKey": "02A"
     },
     {
         "name": "JD Clark",
@@ -730,14 +411,6 @@
         "$$hashKey": "02I"
     },
     {
-        "name": "Rachel Dodge",
-        "pic_square": "https://fbcdn-profile-a.akamaihd.net/hprofile-ak-prn2/1115721_17815285_836073507_q.jpg",
-        "current_location": null,
-        "status": null,
-        "friend_count": "1030",
-        "$$hashKey": "02J"
-    },
-    {
         "name": "Travis Epperson",
         "pic_square": "https://fbcdn-profile-a.akamaihd.net/hprofile-ak-ash4/187078_17816042_3304316_q.jpg",
         "current_location": {
@@ -763,27 +436,11 @@
         "$$hashKey": "02P"
     },
     {
-        "name": "Mika Sawada Permenter",
-        "pic_square": "https://fbcdn-profile-a.akamaihd.net/hprofile-ak-ash3/572551_17817871_925717657_q.jpg",
-        "current_location": null,
-        "status": null,
-        "friend_count": "1336",
-        "$$hashKey": "02S"
-    },
-    {
         "name": "Karla Jensen Pratt",
         "pic_square": "https://fbcdn-profile-a.akamaihd.net/hprofile-ak-prn1/173707_17818839_4084230_q.jpg",
         "current_location": null,
         "status": null,
         "friend_count": "855",
         "$$hashKey": "02U"
-    },
-    {
-        "name": "Scott Weinert",
-        "pic_square": "https://fbcdn-profile-a.akamaihd.net/hprofile-ak-ash1/370359_17819953_1819531589_q.jpg",
-        "current_location": null,
-        "status": null,
-        "friend_count": "986",
-        "$$hashKey": "02V"
     }
 ]
