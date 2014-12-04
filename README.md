@@ -5,8 +5,6 @@ Angular-Friends
 ##Objectives
 Learn Basic Angular Concepts by creating a searchable, filterable list of friends
 
-##Day 1
-
 ###Step 1: Install Angular
 The angular script has already been included in the project.
 In step one you will create an app variable and your FriendController. We have already provided the appropriate files and outlined a structure for you. 
@@ -24,9 +22,6 @@ In step two we will paste the fake data into our application
 ###Step 3: Display friend information
 * Use ng-repeat to create a new li for each person in the person array
 * use {{variable.property}}  bindings to fill the user's picture and data into the li content
-
-
-## Day Two(Part Time) or Continue(Full Time)
 
 ###Step 4: Add a search filter on the friends
 Let's add a filter that will take a user inputted string and only display models that contain that string. 
