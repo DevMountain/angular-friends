@@ -117,7 +117,7 @@
     },
     {
         "name": "Lindsey Ishikiwi",
-        "pic_square": "https://fbcdn-profile-a.akamaihd.net/hprofile-ak-prn2/1117656_10123294_227608525_q.jpg",
+        "pic_square": "https://s-media-cache-ak0.pinimg.com/originals/a1/e3/6b/a1e36bcb8ce179bd8cc8db28ff4ef6fb.jpg",
         "current_location": {
             "city": "Phoenix",
             "state": "Arizona",
@@ -164,7 +164,7 @@
     },
     {
         "name": "John Dohyung Kwon",
-        "pic_square": "https://fbcdn-profile-a.akamaihd.net/static-ak/rsrc.php/v2/yo/r/UlIqmHJn-SK.gif",
+        "pic_square": "https://s-media-cache-ak0.pinimg.com/originals/a1/e3/6b/a1e36bcb8ce179bd8cc8db28ff4ef6fb.jpg",
         "current_location": null,
         "status": null,
         "friend_count": "79",
@@ -443,4 +443,5 @@
         "friend_count": "855",
         "$$hashKey": "02U"
     }
-]
+];
+   
