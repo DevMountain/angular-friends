@@ -1,68 +1,70 @@
 <html>
 <head>
-<script src='http://code.jquery.com/jquery-1.10.2.js' type='text/javascript'></script>
-<link rel="stylesheet" href="http://netdna.bootstrapcdn.com/bootstrap/3.0.0/css/bootstrap.min.css">
-<link rel="stylesheet" href="http://netdna.bootstrapcdn.com/bootstrap/3.0.0/css/bootstrap-theme.min.css">
-<script src="http://netdna.bootstrapcdn.com/bootstrap/3.0.0/js/bootstrap.min.js"></script>
-
-
-<script src='http://code.angularjs.org/1.1.5/angular.js' type='text/javascript'></script>
-<script src='app.js' type='text/javascript'></script>
-<script src='FriendController.js' type='text/javascript'></script>
-
-
-
-<link rel="stylesheet" type="text/css" href="style.css">
-<title>Facebook Lesson 18</title>
+  <title>Angular Friends</title>
+  <link rel="stylesheet" href="http://netdna.bootstrapcdn.com/bootstrap/3.0.0/css/bootstrap.min.css">
+  <link rel="stylesheet" href="http://netdna.bootstrapcdn.com/bootstrap/3.0.0/css/bootstrap-theme.min.css">
+  <link rel="stylesheet" type="text/css" href="style.css">
 </head>
+<body ng-app="AngularFriends">
 
-<body ng-app='AngularApp'>
+  <h1>The <strong>facebook</strong> Friend Machine</h1>
 
-<h1>The <strong>facebook</strong> Friend Machine</h1>
+  <div class="friends" ng-controller="FriendController">
+    <form class="form-inline searchForm" role="form">
+      <div class="form-group">
+        <input class="form-control" placeholder="Search Name" ng-model="friendFilter.name">
+        <input class="form-control" placeholder="Search Location" ng-model="friendFilter.current_location">
 
-<div class="friends" ng-controller='FriendController'>
+        <!-- BLACK DIAMOND -->
 
+          <!-- STEP 1: Uncomment the below line -->
+            <!-- <select ng-model="orderAttribute" ng-options="option.value as option.label for option in searchAttrOptions" class="input-medium">
+            </select> -->
 
-<form class="form-inline searchForm" role="form">
-  <div class="form-group">
-    <input class="form-control" placeholder="Search Name" ng-model="friendFilter.name">
-    <input class="form-control" placeholder="Search Location" ng-model="friendFilter.current_location">
-    <select ng-model="orderAttribute" class="input-medium">
-        <option value="name">Name</option>
-        <option value="friend_count"># friends</option>
-        <option value="current_location.city">City</option>
-        <option value="current_location.state">State</option>
-        <option value="current_location.country">Country</option>
-    </select>
-    <select ng-model="orderReverse" class="input-medium">
-        <option value="true">Descending</option>
-        <option value="false">Ascending</option>
-    </select>
-  </div>
-</form>
+          <!-- STEP 2: Comment out the active code below -->
+            <select ng-model="orderAttribute" class="input-medium">
+                <option value="name">Name</option>
+                <option value="friend_count"># friends</option>
+                <option value="current_location.city">City</option>
+                <option value="current_location.state">State</option>
+                <option value="current_location.country">Country</option>
+            </select>
 
-  <ul>
-    <li class='friend' ng-repeat='friend in friends | orderBy:orderAttribute:orderReverse | filter:friendFilter'>
-      <img ng-src="{{friend.pic_square}}">
+          <!-- STEP 3: Go to the FriendController to ativate some code -->
 
-      <h3>{{friend.name}}</h3>
-      <div class='location 'ng-show='friend.current_location'>
-        Location: {{friend.current_location.city}}, {{friend.current_location.state}}, {{friend.current_location.country}}
-      </div>      
-      <div class='status' ng-show='friend.status'>
-        Status: {{friend.status.message}}
-      </div>      
-      <div class='num-friends' ng-show='friend.friend_count'>
-        Friends: {{friend.friend_count}}
+        <!-- BLACK DIAMOND -->
+
+        <select ng-model="orderReverse" class="input-medium">
+            <option value="false">Ascending</option>
+            <option value="true">Descending</option>
+        </select>
       </div>
-    </li>
-  </ul>
-</div>
+    </form>
 
+    <ul>
+      <li class="friend" ng-repeat="friend in friends | orderBy:orderAttribute:orderReverse | filter:friendFilter">
+        <img ng-src="{{friend.pic_square}}">
 
+        <h3>{{friend.name}}</h3>
 
+        <div class="location" ng-show="friend.current_location">
+          Location: {{friend.current_location.city}}, {{friend.current_location.state}}, {{friend.current_location.country}}
+        </div>
 
+        <div class="status" ng-show="friend.status">
+          Status: {{friend.status.message}}
+        </div>
 
+        <div class="num-friends" ng-show="friend.friend_count">
+          Friends: {{friend.friend_count}}
+        </div>
+      </li>
+    </ul>
+  </div>
 
+  <script src="http://netdna.bootstrapcdn.com/bootstrap/3.0.0/js/bootstrap.min.js"></script>
+  <script src="http://code.angularjs.org/1.1.5/angular.js"></script>
+  <script src="app.js"></script>
+  <script src="FriendController.js"></script>
 </body>
 </html>
