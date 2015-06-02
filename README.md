@@ -25,8 +25,7 @@ In step two we will paste the fake data into our application
 ###Step 4: Add a search filter on the friends
 Let's add a filter that will take a user inputted string and only display models that contain that string.
 Note that the filter searches all attributes of the model recursively.
-* Add an attribute called searchTerm to your FriendController scope variable to store the value of a search term inputted by the user
-* Bind the searchTerm variable to the search input using ng-model
+* Use ng-model (on the input) to add an attribute called searchTerm to your FriendController scope to store the value of the search term inputted by the user
 * Add a filter to your ng-repeat attribute to filter on the search term
 
 ###Step 5: Split the filters into 2: name and location
