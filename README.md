@@ -17,6 +17,7 @@ In step one you will create an app variable and your FriendController. We have a
 In step two we will paste the fake data into our application
 * In the FriendController copy the data from friend-data.json into a scope variable called 'friends' in your FriendController
 * Add a {{friends}} to the html page and refresh so that you can see all of your friend data show up.
+* Delete {{friends}} from your html
 
 ###Step 3: Display friend information
 * Use ng-repeat to create a new li for each person in the person array
