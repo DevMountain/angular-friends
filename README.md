@@ -1,10 +1,9 @@
 <img src="https://devmounta.in/img/logowhiteblue.png" width="250" align="right">
 
 Angular-Friends
-==============
+===============
 
-
-##Objectives
+##Objective
 Learn Basic Angular Concepts by creating a searchable, filterable list of friends
 
 ###Step 1: Install Angular
