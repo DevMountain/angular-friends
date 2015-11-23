@@ -11,8 +11,20 @@ Learn Basic Angular Concepts by creating a searchable, filterable list of friend
 ###Step 1: Install Angular
 The Angular script has already been included in the project.
 In step one, you will create an app variable and your friendController. We have already provided the appropriate files and outlined a structure for you. 
-* Create an app variable for your angular app in app.js (this should be one line). You can name your app whatever you'd like.
-* Create a controller in the friendController.js file called "friendController"
+* Create the main application module for your Angular app in app.js (this should be one line).  Remember, you're going to include the `[]` as the second parameter. This tells Angular that you want to create a new module rather than just use an existing one. In all other files where we call angular.module, we won't be using the `[]` because we want to use the module which has already been created.
+
+```javascript
+var app = angular.module('angularFriends', []);
+```
+
+* Create a controller in the friendController.js file called "friendController." The code should look something like this:
+
+```javascript
+angular.module('angularFriends').controller('friendController', function($scope){
+
+});
+```
+
 * Add the `ng-app` and `ng-controller` attributes to index.html in order to attach your controller to your HTML.
 * Test your controller by adding a scope variable called `test` with the value 'Hello World' and then bind the variable in index.html {{test}} to see if your controller is working.
 
@@ -51,6 +63,7 @@ We will also create a location search input.
 ###Step 7: Black Diamond
 * Use ng-options and an array to create the filter options
 * With the current format any friend with a null value on current_location is filtered out and lost as soon as any filter is applied.  The data we gave you was an example you may find yourself with coming from a 3rd party where the data is not consistent across objects.  Write a for loop or use the .map function on array to find and replace any missing current location properties with an empty object with a property that matches the property you are using for your location filter.
+* 
 ```javascript
   //IE - If I was filtering by current\_location.name I would find current\_location: null and replace it with
   current_location: {     
