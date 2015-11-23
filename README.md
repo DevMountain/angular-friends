@@ -63,7 +63,7 @@ We will also create a location search input.
 ###Step 7: Black Diamond
 * Use ng-options and an array to create the filter options
 * With the current format any friend with a null value on current_location is filtered out and lost as soon as any filter is applied.  The data we gave you was an example you may find yourself with coming from a 3rd party where the data is not consistent across objects.  Write a for loop or use the .map function on array to find and replace any missing current location properties with an empty object with a property that matches the property you are using for your location filter.
-* 
+
 ```javascript
   //IE - If I was filtering by current\_location.name I would find current\_location: null and replace it with
   current_location: {     
