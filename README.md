@@ -28,7 +28,7 @@ In step one you will create an app variable and your FriendController. We have a
 #### 
 __app.js__
 ```
-var app = angular.module('app', []);
+angular.module('app', []);
 ```
 
 __FriendController.js__
