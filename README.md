@@ -9,6 +9,8 @@
 
 Learn Basic Angular Concepts by creating a searchable, filterable list of friends
 
+![alt text](https://github.com/DevMountain/angular-friends/blob/master/preview.png?raw=true, "Preview Image")
+
 ### Install Angular
 
 #### 
