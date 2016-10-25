@@ -5,7 +5,7 @@
 #### 
 <img src="https://devmounta.in/img/logowhiteblue.png" width="250" align="right">
 
-##### Fork and Clone the Repo
+##### Fork and Clone this Repo
 
 https://github.com/DevMountain/angular-friends
 
@@ -26,10 +26,10 @@ Setup your app and test it by displaying something from your controller's scope 
 
 The angular script has already been included in the project.
 In step one you will create an app variable and your FriendController. We have already provided the appropriate files and outlined a structure for you.
-* Create an app for your angular app in app.js (this should be one line). You can name your app whatever your want
-* Create a FriendController in the FriendController.js file
-* Add the ng-app and ng-controller attributes to index.html in order to attach your controller to your html
-* Test your controller by adding a scope variable called 'test' with the value 'Hello World' and then bind the variable in index.html {{test}} to see if your controller is working
+* Create an app for your angular app in app.js (this should be one line). You can name your app whatever your want.
+* Create a FriendController in the FriendController.js file.
+* Add the ng-app and ng-controller attributes to index.html in order to attach your controller to your html.
+* Test your controller by adding a scope variable called 'test' with the value 'Hello World' and then bind the variable in index.html with `{{test}}` to see if your controller is working.
 
 #### 
 __app.js__
@@ -87,18 +87,18 @@ angular.module("app").controller('FriendController', function($scope){
 
 #### 
 
-You now have a list of friends on your scope.  Display that list of friend on the screen.  There is some html code already in the index.html to help you get the look right.
+You now have a list of friends on your scope.  Display that list of friends on the screen.  There is some html code already in the index.html to help you get the look right.
 
 Your data contains a url for an image for each person.  Make sure the image shows up as well!
 
 #### 
 
-* Use ng-repeat on the ul to create a new li for each person in the person array
+* Use ng-repeat on the ul to create a new li for each person in the person array.
 
 * Use `{{}}` bindings to fill the user's picture and data into the li content.
 When doing this you can walk down objects using dot notation.
 
-* For the images use ng-src not src. 
+* For the images use ng-src not src. This prevents the browser from trying to load the image before angular has a chance to load it.
 
 #### 
 __index.html__
@@ -129,12 +129,12 @@ __index.html__
 ### 5) Add a search filter on the friends
 
 #### 
-A filter that will take a user inputted string and only display models that contain that string.
+A filter that will take a user-inputted string and only display models that contain that string.
 
 #### 
 Note that the filter searches all attributes of the model recursively.
-* Use ng-model (on the input) to add an attribute called searchTerm to your FriendController scope to store the value of the search term inputted by the user
-* Add a filter to your ng-repeat attribute to filter on the search term
+* Use ng-model (on the input) to add an attribute called `searchTerm` to your FriendController scope to store the value of the search term inputted by the user.
+* Add a filter to your ng-repeat attribute to filter on the search term.
 
 #### 
 __index.html__
@@ -149,16 +149,16 @@ __index.html__
 
 #### 
 
-Uncomment the block in step 5 in the index.html.   Change your filter so that you are filtering by name or location specifically instead of by all fields.
+Uncomment the block in step 5 in the index.html. Change your filter so that you are filtering by name or location specifically instead of by all fields.
 
 #### 
 
 Let's make our search more specific. Our input from Step 4 will now search only the name.
 We will also create a location search input.
 * Create a filter object and use two properties on that object.  One for the name and one for the location.
-* Refactor the search you implemented in Step 4 to only search on a friend's name
-* Use our uncommented second input to add a friend's location to our filter object
-* Use our filter object in our ng-repeat filter
+* Refactor the search you implemented in Step 4 to only search on a friend's name.
+* Use our uncommented second input to add a friend's location to our filter object.
+* Use our filter object in our ng-repeat filter.
 
 Filtering works by matching the exact structure of the data you're searching. This includes both the property name and the value of that property.  This can also be nested and include child objects.  Searching on nested objects would mean your filter needs to be nested as well.
 
@@ -178,14 +178,14 @@ __index.html__
 
 #### 
 
-Make your list sortable using the provided sort drop-down
+Make your list sortable using the provided sort drop-down.
 
 #### 
 
-* Create two variables in your friend controller, one for the attribute to sort on and another boolean for an ascending vs descending sort
-* Add a value attribute (```value="something"```) to each item in the list of options. This value needs to equal the value of the property, on each friend object in your array, that you want to sort by
-* Bind the variables to their respective select elements using ng-model
-* Add the ordering logic to your filter 
+* Create two variables in your friend controller, `sortProp` for the attribute to sort on and `sortDirection` for an ascending vs descending sort.
+* Add a value attribute (```value="something"```) to each item in the list of options. This value needs to equal the value of the property, on each friend object in your array, that you want to sort by.
+* Bind the variables to their respective \<select> elements using ng-model.
+* Add the ordering logic to your filter. 
 ** Sample syntax      | orderBy: propertyName : isReversed
 ** See https://docs.angularjs.org/api/ng/filter/orderBy
 
