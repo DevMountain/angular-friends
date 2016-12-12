@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html>
+<html ng-app="Angular Friends">
 <head>
   <title>Angular Friends</title>
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.4/css/bootstrap.min.css">
@@ -10,41 +10,40 @@
 
   <h1>The <strong>facebook</strong> Friend Machine</h1>
 
-  <div class="friends">
+  <div class="friends" ng-controller="FriendController" >
+
     <form class="form-inline searchForm" role="form">
       <div class="form-group">
 
-        <input class="form-control" placeholder="Search Anything About Your Friends">
         <!-- STEP 5: Get rid of the one above when you uncomment the below-->
-          <!--
-        <input class="form-control" placeholder="Search Name">
-        <input class="form-control" placeholder="Search Location">
-          -->
+        <input class="form-control" placeholder="Search Name" ng-model="searchTerm.name">
+        <input class="form-control" placeholder="Search Location" ng-model="searchTerm.current_location.name">
+          
 
-        <select class="input-medium">
-          <option>Name</option>
-          <option>#Friends</option>
-          <option>City</option>
-          <option>State</option>
-          <option>Country</option>
+        <select class="input-medium" ng-options="info.value as info.displayName for info in friendInfo" ng-model="sortBy">
+         <!--  <option value="name">Name</option>
+          <option value="friend_count">#Friends</option>
+          <option value="current_location.city">City</option>
+          <option value="current_location.state">State</option>
+          <option value="current_location.country">Country</option> -->
         </select>
 
-        <select class="input-medium">
+        <select class="input-medium" ng-model="ascVsDec">
           <option value="+">Descending</option>
-          <option value="-">Ascending</option>
+          <option value="">Ascending</option>
         </select>
 
       </div>
     </form>
 
     <ul>
-      <li class='friend'>
-        <img class="profile-pic" src='http://placebear.com/50/50.jpg'>
+      <li class='friend' ng-repeat="friend in friends | filter: searchTerm | orderBy: sortBy: ascVsDec" >
+        <img class="profile-pic" ng-src="{{friend.pic_square}}">
 
-        <h3>Cali Fornia</h3>
+        <h3>{{friend.name}}</h3>
 
         <div class="location">
-          Location: New Port Beach, California, United States
+          {{friend.current_location.name}}, {{friend.current_location.country}}
         </div>
 
         <div class="status">
