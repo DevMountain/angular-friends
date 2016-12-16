@@ -103,23 +103,23 @@ When doing this you can walk down objects using dot notation.
 #### 
 __index.html__
 ```
-<ul ng-repeat="friend in friends">
-    <li class='friend'>
-    <img class="profile-pic" ng-src='{{friend.pic_square}}'>
+<ul>
+    <li class='friend' ng-repeat="friend in friends">
+        <img class="profile-pic" ng-src='{{friend.pic_square}}'>
 
-    <h3>{{friend.name}}</h3>
+        <h3>{{friend.name}}</h3>
 
-    <div class="location">
-        Location: {{friend.current_location.city}}, {{friend.current_location.state}}, {{friend.current_location.country}}, 
-    </div>
+        <div class="location">
+            Location: {{friend.current_location.city}}, {{friend.current_location.state}}, {{friend.current_location.country}}, 
+        </div>
 
-    <div class="status">
-        Status: {{friend.status.message}}
-    </div>
+        <div class="status">
+            Status: {{friend.status.message}}
+        </div>
 
-    <div class="num-friends">
-        Friends: {{friend.friend_count}}
-    </div>
+        <div class="num-friends">
+            Friends: {{friend.friend_count}}
+        </div>
     </li>
 </ul>
 ```
@@ -142,7 +142,7 @@ __index.html__
  <input class="form-control" placeholder="Search Anything About Your Friends"
                ng-model="friendFilter">
                
- <ul ng-repeat="friend in friends | filter: friendFilter">
+ <li ng-repeat="friend in friends | filter: friendFilter">
  ```           
 
 ### 6) Split the filters into 2: name and location
@@ -186,7 +186,7 @@ Make your list sortable using the provided sort drop-down.
 * Add a value attribute (```value="something"```) to each item in the list of options. This value needs to equal the value of the property, on each friend object in your array, that you want to sort by.
 * Bind the variables to their respective \<select> elements using ng-model.
 * Add the ordering logic to your filter. 
-** Sample syntax      | orderBy: propertyName : isReversed
+** Sample syntax      | orderBy: isReversed + propertyName 
 ** See https://docs.angularjs.org/api/ng/filter/orderBy
 
 #### 
@@ -210,7 +210,7 @@ __index.html__
 
 ....
 
-<ul ng-repeat="friend in friends | filter: friendFilter | orderBy: sortProp : sortDirection">
+<ul ng-repeat="friend in friends | filter: friendFilter | orderBy: sortDirection + sortProp ">
 ```
 
 
