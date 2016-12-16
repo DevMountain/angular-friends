@@ -142,7 +142,7 @@ __index.html__
  <input class="form-control" placeholder="Search Anything About Your Friends"
                ng-model="friendFilter">
                
- <ul ng-repeat="friend in friends | filter: friendFilter">
+ <li ng-repeat="friend in friends | filter: friendFilter">
  ```           
 
 ### 6) Split the filters into 2: name and location
