@@ -170,8 +170,15 @@ __index.html__
   
   ...
   
- <ul ng-repeat="friend in friends | filter: friendFilter">
-  
+ <ul>
+    <li ng-repeat="friend in friends | filter: friendFilter | orderBy: sortDirection + sortProp ">
+
+
+....
+
+
+    </li>
+ </ul>
 ```
 
 ### 7) Make the list sortable
@@ -209,8 +216,15 @@ __index.html__
 
 
 ....
+<ul>
+    <li ng-repeat="friend in friends | filter: friendFilter | orderBy: sortDirection + sortProp ">
 
-<ul ng-repeat="friend in friends | filter: friendFilter | orderBy: sortDirection + sortProp ">
+
+....
+
+
+    </li>
+</ul>
 ```
 
 
