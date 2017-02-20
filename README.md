@@ -349,7 +349,7 @@ Filtering works by matching the exact structure of the data you're searching. Th
     >
     <!-- other html code -->
     <ul>
-      <li ng-repeat="friend in friends | filter: friendFilter | orderBy: sortDirection + sortProp ">
+      <li ng-repeat="friend in friends | filter: friendFilter">
   ```
 </details>
 
@@ -380,8 +380,8 @@ See https://docs.angularjs.org/api/ng/filter/orderBy for more details.
   </select>
 
   <select class="input-medium" ng-model="sortDirection">
-      <option value="+">Descending</option>
-      <option value="-">Ascending</option>
+      <option value="-">Descending</option>
+      <option value="+">Ascending</option>
   </select>
   <!-- other html code -->
   <ul>
