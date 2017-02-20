@@ -344,8 +344,8 @@ Filtering works by matching the exact structure of the data you're searching. Th
     >
     <input
       class="form-control"
-      placeholder="Search Location"
-      ng-model="friendFilter.location.name"
+      placeholder="Search By State"
+      ng-model="friendFilter.location.state"
     >
     <!-- other html code -->
     <ul>
