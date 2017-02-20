@@ -20,9 +20,9 @@ Fork and clone this repo
 
 **Details**
 
-Add a source tag below the two source tags currently in `index.html`. Grab the href from angularjs.org (Don't worry about the other two source tags, they are there for styling purposes.)
+Add a script tag below the two script tags currently in `index.html`. Grab the href from angularjs.org (Don't worry about the other two script tags, they are there for styling purposes.)
 
-Create a file named `app.js`. Add the source tag for you new file to `index.html`. Inside this file, call angular's `module` method and pass in a name of `myApp` and an empty array. Without the empty array argument, angular would try to find the `myApp` module instead of create one. Add the `ng-app` attribute to your an element in your html.
+Create a file named `app.js`. Add the script tag for you new file to `index.html`. Inside this file, call angular's `module` method and pass in a name of `myApp` and an empty array. Without the empty array argument, angular would try to find the `myApp` module instead of create one. Add the `ng-app` attribute to your an element in your html.
 
 Create a file named `FriendCtrl.js`. After calling the `module` method with only its name, call the controller method giving it the name `FriendCtrl` and a function. Add the `ng-controller` attribute to an element inside of the element with `ng-app`.
 
@@ -262,7 +262,7 @@ Your data contains a url for an image for each friend.  Make sure the image show
 
 **Details**
 
-* Use ng-repeat on the `ul` element to create a new `li` element for each friend in the friends array.
+* Use ng-repeat on the `li` element to create a new `li` element for each friend in the friends array.
 
 * Use `{{}}` bindings to fill the user's picture and data into the li content.
 When doing this you can walk down objects using dot notation.
