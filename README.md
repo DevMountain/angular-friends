@@ -155,7 +155,7 @@ Below is some fake data — an array of objects representing our friends. Copy a
     status: null,
     friend_count: 185
   },{
-    name: 'Joseph 'Moses' Craven',
+    name: 'Joseph Moses Craven',
     pic_square: 'http://free-profile-pics.com/profile-pictures/01232014/images/mr-bean-profile-picture-133x133.PNG',
     location: { city: 'Ardmore', state: 'Oklahoma', country: 'United States', zip: '' },
     status: null,
